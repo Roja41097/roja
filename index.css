@@ -1,0 +1,73 @@
+
+*{
+	margin:0;
+	padding:0;
+	
+}
+input[type=text] {
+  width: 73%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border:2px solid green;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: white;
+}
+	
+h2{
+	padding:50px 130px;
+	font-family:Times new roman;
+    color:white;
+	font-size:70px;
+}
+.main{
+	width:500px;
+	height:450px;
+	padding:10px 500px;
+	
+     
+}
+
+#rr{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("maths.jpg"); 
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	height:100vh;
+}
+#cal{
+	border-radius:12px;
+	background-color: white;
+    color: green;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: auto;
+    cursor: pointer;
+    width:73%;
+    border:1px solid green;
+    padding:5px 20px;}
+#cal:hover{
+	color:white;
+	background-color:green;
+}
+
+#buttn{
+	width:23%;
+	border-radius:12px;
+	background-color: white;
+    color: rgb(200,0,0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border:1px solid red;
+    padding:5px 20px;
+}
+#buttn:hover{
+	background-color:rgb(200,0,0);
+color: white;}
+	
